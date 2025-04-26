@@ -14,6 +14,8 @@ Końcowym rezultatem (tym, co oddasz) będzie link do REPO na GitHubie, w który
 - dane (np. pliki CSV).
 - dodatkowe pliki, mile widziane opublikowane estetycznie raporty EDA w formacie Markdown (MD, HTML, PDF itp.).
 
+> Po przesłaniu finalnej wersji projektu, każda grupa projektowa zobowiązana jest do umówienia się na krótkie **spotkanie online** ze mną w celu jego omówienia. Spotkanie ma na celu potwierdzenie samodzielności wykonania pracy oraz umożliwia zadanie ewentualnych pytań dotyczących przeprowadzonej analizy.
+
 
 | Sekcja | Punkty | Opis | Przykład |
 | :---------------: | :----: | :----------: | :--------: |
