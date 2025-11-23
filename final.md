@@ -1,4 +1,4 @@
-# Projekt końcowy
+# Projekt końcowy (SAD cz. 1.)
 
 ## Wprowadzenie
 
@@ -58,3 +58,10 @@ Oto kilka przykładów rzeczy, które, choć nie są konieczne, uczyniłyby twó
 - **Wizualizacja** danych (niestandardowe przekroje, faceting, poprawne zaadaptowanie wykresów do skal).
 - **Połączenie** opisu i testowania z wizualizacjami - np. labelki średnich, mediany, kwartyli lub wyników testu statystycznego na tle boxplotów, przeźroczystych histogramów, wykresów gęstości itp.
 
+# Test końcowy (SAD cz. 2.)
+
+Test końcowy w drugim semestrze SAD będzie opierał się na całości materiału - statystyce opisowej, eksploracji danych, aspektach technicznych (Git, Markdown, Python), wnioskowaniu statystycznym.
+
+## Test przykładowy
+
+[Tutaj](testy/Test%20przykładowy%20SAD.pdf) znajdziecie test przykładowy - proszę o przygotowanie się do egzaminu końcowego. Aspekty dotyczące języka R/Python - rozdział pierwszy, tutorial video. Reszta wyłącznie w oparciu o Pythona (tak jak wyglądały nasze zajęcia).

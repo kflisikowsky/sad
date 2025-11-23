@@ -26,7 +26,7 @@ Ten kurs jest jednym z [**dwóch podstawowych kursów** z zakresu statystycznej 
 
 Ocena końcowa z przedmiotu w SAD 1. w semestrze letnim 2025 wystawiona będzie na podstawie Twojego [projektu końcowego](final.md). 
 
-Ocena końcowa z przedmiotu SAD 2. w semestrze zimowym 2025 wystawiona będzie wyłącznie na podstawie końcowego testu z zakresu wnioskowania statystycznego. 
+Ocena końcowa z przedmiotu SAD 2. w semestrze zimowym 2025 wystawiona będzie wyłącznie na podstawie końcowego [testu](final.md) z zakresu wnioskowania statystycznego. 
 
 Zobacz [syllabus](syllabus.md) by zobaczyć wszystkie szczegóły nt. kursu.
 
