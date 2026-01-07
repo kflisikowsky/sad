@@ -4,9 +4,9 @@ downloads:
     title: Plik PDF
 ---
 
-# Witaj na kursie SAD 2025!
+# Witaj na kursie SAD 2026!
 
-SAD 2025 | Karol Flisikowski | Zima 2025 | PG
+SAD 2026 | Karol Flisikowski | Zima 2026 | PG
 
 ## O kursie
 

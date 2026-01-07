@@ -1,4 +1,4 @@
-# SAD 2025
+# SAD 2026
 
 Statystyczna Analiza Danych z Pythonem
 
