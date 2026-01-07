@@ -9,7 +9,7 @@ project:
       ref: main
       provider: github
   id: 206d3f6a-eb48-49c5-aca8-63053405fdf3
-  title: SAD 2026
+  title: SAD 2025
   license: CC-BY-4.0
   description: Statystyczna Analiza Danych
   keywords: [sad, statystyka, analiza danych]
@@ -48,4 +48,4 @@ site:
     twitter: Karol_Flisik
     favicon: sad.ico
     logo: sad.jpg
-    extra_footer: "© 2026 Karol Flisikowski. All rights reserved."
+    extra_footer: "© 2025 Karol Flisikowski. All rights reserved."

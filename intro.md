@@ -4,13 +4,13 @@ downloads:
     title: Plik PDF
 ---
 
-# Witaj na kursie SAD 2026!
+# Witaj na kursie SAD 2025!
 
-SAD 2026 | Karol Flisikowski | Zima 2026 | PG
+SAD 2025 | Karol Flisikowski | 2025 | PG
 
 ## O kursie
 
-Ten kurs (część 1/2) nauczy Cię, jak myśleć o **danych** i **wizualizacji** dla **eksploracyjnej analizy danych** (EDA). 
+Ten e-book nauczy Cię, jak myśleć o **danych** i **wizualizacji** dla **eksploracyjnej analizy danych** (EDA). 
 
 - Jak jest **formatowany** zbiór danych i czy jest to odpowiedni format dla tego, co chcę zrobić? (cz. 1/2)
 - Czy ten zbiór danych jest **reprezentatywny** lub czy odzwierciedla **obiektywną próbę**? (cz. 1/2)
@@ -24,9 +24,9 @@ Ten kurs jest jednym z [**dwóch podstawowych kursów** z zakresu statystycznej 
 
 ## Ocena końcowa
 
-Ocena końcowa z przedmiotu w SAD 1. w semestrze letnim 2025 wystawiona będzie na podstawie Twojego [projektu końcowego](final.md). 
+Ocena końcowa z kursu w SAD 1. w semestrze letnim 2025 wystawiona będzie na podstawie Twojego [projektu końcowego](final.md). 
 
-Ocena końcowa z przedmiotu SAD 2. w semestrze zimowym 2025 wystawiona będzie wyłącznie na podstawie końcowego [testu](final.md) z zakresu wnioskowania statystycznego. 
+Ocena końcowa z kursu SAD 2. w semestrze zimowym 2025 wystawiona będzie wyłącznie na podstawie końcowego [testu](final.md) z zakresu wnioskowania statystycznego. 
 
 Zobacz [syllabus](syllabus.md) by zobaczyć wszystkie szczegóły nt. kursu.
 

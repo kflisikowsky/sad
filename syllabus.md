@@ -1,6 +1,6 @@
-# SAD Syllabus: Lato 2026
+# SAD 2025
 
-## Ogólnie o kursie
+## Ogólnie o tym e-booku
 
 Ten kurs nauczy Cię, jak myśleć o **danych** i ich **analizowaniu** w celu wykonania profesjonalnego raportu **eksploracyjnej analizy danych** (EDA - Exploratory Data Analysis). 
 
