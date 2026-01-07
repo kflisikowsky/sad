@@ -1,4 +1,4 @@
-# SAD Syllabus: Lato 2025
+# SAD Syllabus: Lato 2026
 
 ## Ogólnie o kursie
 
