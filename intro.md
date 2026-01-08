@@ -4,11 +4,11 @@ downloads:
     title: Plik PDF
 ---
 
-# Witaj na kursie SAD 2025!
+# Witaj w e-booku SAD!
 
 SAD 2025 | Karol Flisikowski | 2025 | PG
 
-## O kursie
+## O e-booku
 
 Ten e-book nauczy Cię, jak myśleć o **danych** i **wizualizacji** dla **eksploracyjnej analizy danych** (EDA). 
 

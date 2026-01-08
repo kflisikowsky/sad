@@ -2,7 +2,7 @@
 
 ## Ogólnie o tym e-booku
 
-Ten kurs nauczy Cię, jak myśleć o **danych** i ich **analizowaniu** w celu wykonania profesjonalnego raportu **eksploracyjnej analizy danych** (EDA - Exploratory Data Analysis). 
+Ten e-book nauczy Cię, jak myśleć o **danych** i ich **analizowaniu** w celu wykonania profesjonalnego raportu **eksploracyjnej analizy danych** (EDA - Exploratory Data Analysis). 
 
 Będzie obejmować stawianie i analizowanie pytań takich jak:
 
