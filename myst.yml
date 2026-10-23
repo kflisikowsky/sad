@@ -39,6 +39,8 @@ project:
     - file: 11-estymacja.ipynb
     - file: 12-testowanie.ipynb
     - file: 13-testy_roznic.ipynb
+      children:
+        - file: 13a-workbook.ipynb
     - file: 14-testy_anova.ipynb
   exports:
     - format: pdf
