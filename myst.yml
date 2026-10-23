@@ -34,6 +34,8 @@ project:
     - file: 08-data-wrangling.ipynb
     - file: 09-statystyka-opisowa.ipynb
     - file: 10-sampling.ipynb
+      children:
+        - file: 10a-workbook.ipynb
     - file: 11-estymacja.ipynb
     - file: 12-testowanie.ipynb
     - file: 13-testy_roznic.ipynb
