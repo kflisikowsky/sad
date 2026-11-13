@@ -1,8 +1,8 @@
-# SAD 2025
+# SAD 2026
 
-Statystyczna Analiza Danych z Pythonem
+<p align="center"><code>Statystyczna Analiza Danych z Pythonem</code></p>
 
-![Logo](sad.jpg)
+![Logo](sad2026.jpg)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18175897.svg)](https://doi.org/10.5281/zenodo.18175897)
 
