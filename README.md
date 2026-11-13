@@ -1,6 +1,6 @@
 # SAD 2026
 
-<p align="center"><code>&gt;&gt;&gt; print("Statystyczna Analiza Danych z Pythonem")</code></p>
+<p align="center">𝚂𝚝𝚊𝚝𝚢𝚜𝚝𝚢𝚌𝚣𝚗𝚊 𝙰𝚗𝚊𝚕𝚒𝚣𝚊 𝙳𝚊𝚗𝚢𝚌𝚑 𝚣 𝙿𝚢𝚝𝚑𝚘𝚗𝚎𝚖</p>
 
 ![Logo](img/sad2026.png)
 
