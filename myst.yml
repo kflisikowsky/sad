@@ -41,6 +41,7 @@ project:
     - file: 13-testy_roznic.ipynb
       children:
         - file: 13a-workbook.ipynb
+        - file: 13b-workbook.ipynb
     - file: 14-testy_anova.ipynb
   exports:
     - format: pdf
