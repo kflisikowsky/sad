@@ -1,0 +1,8 @@
+.myst-search-text-placeholder {
+  font-size: 0;
+}
+
+.myst-search-text-placeholder::after {
+  content: "SZUKAJ";
+  font-size: 1rem;
+}

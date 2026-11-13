@@ -54,4 +54,5 @@ site:
     favicon: sad.ico
     logo: sad.jpg
     logo_text: Statystyczna Analiza Danych z Pythonem
+    style: myst.css
     extra_footer: "© 2026 Karol Flisikowski. All rights reserved."
