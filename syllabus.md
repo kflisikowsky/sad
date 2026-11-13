@@ -1,4 +1,4 @@
-# SAD 2025
+# SAD 2026
 
 ## Ogólnie o tym e-booku
 
@@ -34,14 +34,7 @@ Moim celem jest, abyś pod koniec kursu był(a) w stanie:
 
 | Kto?              | Kiedy?      | Gdzie?                                                         |
 |--------------------|------------------------|-----------------------------|
-| Karol Flisikowski | Środy 14-15 | [Online](https://calendly.com/flisik/konsultacje-office-hours) |
-
-### Kiedy/Gdzie? SAD 2.:
-
-- Sesja 1. 26/09/2025 16:30-19:45 sala 203
-- Sesja 2. 27/09/2025 13:00-16:15 sala 203
-- Sesja 3. 14/11/2025 16:30-19:45 sala 203
-- Sesja 4. 28/11/2025 16:30-19:45 sala 203 z testem o godzinie 19:00
+| Karol Flisikowski | Wtorki 13-14 | [Online](https://calendly.com/flisik/konsultacje-office-hours) |
 
 ## Ocena końcowa
 
