@@ -7,29 +7,40 @@
   font-size: 1rem;
 }
 
-/* Zmiana CONTENTS na SPIS TREŚCI */
-nav .toc-title,
-nav[role="doc-toc"] > h2,
-.toc-title,
-[role="doc-toc"] > h2 {
-  font-size: 0 !important;
+/* Ukryj CONTENTS i zastąp na SPIS TREŚCI */
+h2:has(+ nav),
+h2:contains("CONTENTS"),
+.toc h2,
+nav h2,
+.book-navbar h2 {
+  font-size: 0;
 }
 
-nav .toc-title::before,
-nav[role="doc-toc"] > h2::before,
-.toc-title::before,
-[role="doc-toc"] > h2::before {
-  content: "SPIS TREŚCI" !important;
-  font-size: 1.25rem !important;
+h2:has(+ nav)::before,
+h2:contains("CONTENTS")::before,
+.toc h2::before,
+nav h2::before,
+.book-navbar h2::before {
+  content: "SPIS TREŚCI";
+  font-size: 1.25rem;
+  display: inline-block;
+}
+
+/* Inny sposób - dla wszystkich h2 nad nav */
+nav {
+  position: relative;
+}
+
+nav::before {
+  content: "SPIS TREŚCI";
   display: block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
-/* Fallback dla wszystkich elementów z tekstem CONTENTS */
-*:has-text(CONTENTS) {
-  font-size: 0 !important;
-}
-
-*:has-text(CONTENTS)::before {
-  content: "SPIS TREŚCI" !important;
-  font-size: 1.25rem !important;
+/* Ukryj oryginalny tekst w nav */
+nav > h2,
+nav > .nav-title {
+  display: none;
 }
