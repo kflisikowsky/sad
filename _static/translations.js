@@ -1,24 +1,42 @@
-// Zamiana CONTENTS na SPIS TREŚCI
-document.addEventListener('DOMContentLoaded', function() {
-  // Znajdź wszystkie elementy zawierające "CONTENTS"
-  const walker = document.createTreeWalker(
-    document.body,
-    NodeFilter.SHOW_TEXT,
-    null,
-    false
-  );
+// Bardziej agresywne zastępowanie CONTENTS -> SPIS TREŚCI
+(function() {
+  const replace = () => {
+    // Szukaj w całym dokumencie
+    const walk = (node) => {
+      if (node.nodeType === Node.TEXT_NODE) {
+        if (node.textContent === 'CONTENTS') {
+          node.textContent = 'SPIS TREŚCI';
+        }
+      } else {
+        for (let child of node.childNodes) {
+          walk(child);
+        }
+      }
+    };
+    
+    walk(document.body);
+    
+    // Również zamień w shadow DOM jeśli istnieje
+    document.querySelectorAll('*').forEach(el => {
+      if (el.shadowRoot) {
+        walk(el.shadowRoot);
+      }
+    });
+  };
 
-  let node;
-  const nodesToReplace = [];
+  // Wielokrotne wykonanie
+  replace();
+  document.addEventListener('DOMContentLoaded', replace);
+  setTimeout(replace, 100);
+  setTimeout(replace, 500);
+  setTimeout(replace, 1000);
   
-  while (node = walker.nextNode()) {
-    if (node.textContent.trim() === 'CONTENTS') {
-      nodesToReplace.push(node);
-    }
-  }
-
-  // Zamień tekst
-  nodesToReplace.forEach(node => {
-    node.textContent = 'SPIS TREŚCI';
+  // Observer na zmian DOM
+  const observer = new MutationObserver(replace);
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+    characterData: true
   });
-});
+})();
+
