@@ -6,3 +6,13 @@
   content: "SZUKAJ";
   font-size: 1rem;
 }
+
+/* Tłumaczenie CONTENTS na SPIS TREŚCI */
+.myst-toc-section-title {
+  font-size: 0;
+}
+
+.myst-toc-section-title::before {
+  content: "SPIS TREŚCI";
+  font-size: 1rem;
+}
