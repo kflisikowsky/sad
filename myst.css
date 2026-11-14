@@ -7,3 +7,12 @@
   font-size: 1rem;
 }
 
+.myst-outline-header {
+  font-size: 0;
+}
+
+.myst-outline-header::before {
+  content: "SPIS TREŚCI";
+  font-size: 0.875rem;
+}
+
