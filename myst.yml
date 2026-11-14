@@ -58,5 +58,20 @@ site:
     style: myst.css
     extra_footer: "© 2026 Karol Flisikowski. All rights reserved."
     toc_title: "SPIS TREŚCI"
-  extra_js:
-    - _static/translations.js
+    extra_js:
+      - _static/translations.js
+  extra_html_head: |
+    <script>
+    const replaceContents = () => {
+      document.querySelectorAll('*').forEach(el => {
+        if (el.childNodes.length === 1 && el.childNodes[0].nodeType === 3) {
+          if (el.childNodes[0].textContent.trim() === 'CONTENTS') {
+            el.childNodes[0].textContent = 'SPIS TREŚCI';
+          }
+        }
+      });
+    };
+    document.addEventListener('DOMContentLoaded', replaceContents);
+    setTimeout(replaceContents, 500);
+    setTimeout(replaceContents, 1000);
+    </script>
