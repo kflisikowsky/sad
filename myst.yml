@@ -32,3 +32,17 @@ site:
     extra_footer: "© 2026 Karol Flisikowski. All rights reserved."
   extra_js:
     - _static/translations.js
+  extra_html_body: |
+    <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.querySelectorAll('*').forEach(el => {
+          for (let node of el.childNodes) {
+            if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === 'CONTENTS') {
+              node.textContent = 'SPIS TREŚCI';
+            }
+          }
+        });
+      }, 500);
+    });
+    </script>
