@@ -58,3 +58,5 @@ site:
     style: myst.css
     extra_footer: "© 2026 Karol Flisikowski. All rights reserved."
     toc_title: "SPIS TREŚCI"
+  extra_js:
+    - _static/translations.js
