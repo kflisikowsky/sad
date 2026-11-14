@@ -30,19 +30,17 @@ site:
     logo_text: Statystyczna Analiza Danych z Pythonem
     style: myst.css
     extra_footer: "© 2026 Karol Flisikowski. All rights reserved."
-  extra_js:
-    - _static/translations.js
-  extra_html_body: |
+    language: pl
+  extra_html_head: |
     <script>
-    window.addEventListener('load', () => {
-      setTimeout(() => {
-        document.querySelectorAll('*').forEach(el => {
-          for (let node of el.childNodes) {
-            if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === 'CONTENTS') {
-              node.textContent = 'SPIS TREŚCI';
-            }
-          }
-        });
-      }, 500);
+    const originalTextContent = Object.getOwnPropertyDescriptor(Node.prototype, 'textContent');
+    Object.defineProperty(Node.prototype, 'textContent', {
+      ...originalTextContent,
+      set(value) {
+        if (value === 'CONTENTS') {
+          value = 'SPIS TREŚCI';
+        }
+        originalTextContent.set.call(this, value);
+      }
     });
     </script>
