@@ -22,7 +22,7 @@ project:
       template: lapreprint-typst
       articles: intro.md
 site:
-  template: book
+  template: book-theme
   options:
     twitter: Karol_Flisik
     favicon: sad.ico
